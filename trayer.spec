@@ -12,7 +12,7 @@ URL:		http://fvwm-crystal.berlios.de/
 License:	MIT
 Group:		Graphical desktop/Other
 BuildRoot:	%{_tmppath}/%{name}-buildroot
-BuildRequires:	X11-devel
+BuildRequires:	gtk2-devel
 
 %description
 trayer is a small program designed to provide systray functionality present in
