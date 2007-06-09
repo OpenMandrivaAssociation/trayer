@@ -1,6 +1,6 @@
 %define name	trayer
 %define version	1.0
-%define release %mkrel 1
+%define release %mkrel 2
 
 Name: 	 	%{name}
 Summary: 	Lightweight GTK2-based system tray
@@ -25,7 +25,8 @@ to control programs.
 %setup -q
 
 %build
-%make CFLAGS="$RPM_OPT_FLAGS" 
+# parallel build fails
+make CFLAGS="$RPM_OPT_FLAGS" 
 										
 %install
 rm -rf $RPM_BUILD_ROOT
