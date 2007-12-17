@@ -11,7 +11,6 @@ Source:		%{name}-%{version}.tar.bz2
 URL:		http://fvwm-crystal.berlios.de/
 License:	MIT
 Group:		Graphical desktop/Other
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	gtk2-devel libxmu-devel
 
 %description
