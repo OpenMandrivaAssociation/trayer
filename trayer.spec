@@ -8,7 +8,7 @@ Version: 	%{version}
 Release: 	%{release}
 
 Source:		%{name}-%{version}.tar.bz2
-URL:		http://fvwm-crystal.berlios.de/
+URL:		https://fvwm-crystal.berlios.de/
 License:	MIT
 Group:		Graphical desktop/Other
 BuildRoot:	%{_tmppath}/%{name}-buildroot
