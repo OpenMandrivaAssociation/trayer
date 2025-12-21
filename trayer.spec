@@ -12,6 +12,7 @@ URL:		https://fvwm-crystal.berlios.de/
 License:	MIT
 Group:		Graphical desktop/Other
 BuildRoot:	%{_tmppath}/%{name}-buildroot
+BuildRequires:	make
 BuildRequires:	gtk2-devel libxmu-devel
 
 %description
