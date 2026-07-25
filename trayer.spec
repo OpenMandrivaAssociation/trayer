@@ -1,6 +1,6 @@
 %define name	trayer
 %define version	1.0
-%define release %mkrel 5
+%define release 6
 
 Name: 	 	%{name}
 Summary: 	Lightweight GTK2-based system tray
